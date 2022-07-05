@@ -4,10 +4,10 @@
 //1.NAN stands for  Not a Number.
 
 const str1 = 'hello';
-console.log('q1.1 check if it is a NaN',str1===NaN);
+console.log('q1.1 check if str is a NaN',isNaN(str1));
 
-const str2 = '3';
-console.log('q1.2 check if it is a NaN',str2===NaN);
+const num2 = 3;
+console.log('q1.2 check if number is a NaN',isNaN(num2));
 
 console.log('q1.3', typeof NaN);// it is a number
 
